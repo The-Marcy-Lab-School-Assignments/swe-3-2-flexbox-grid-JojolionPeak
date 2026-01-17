@@ -46,3 +46,41 @@ footer {
 /* ================================ */
 /* Add your CSS below this line */
 /* ================================ */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  flex: 1;
+}
+
+nav > a{
+  gap: 1rem;
+}
+
+h1 {
+  margin: 40px;
+}
+
+#Categories > li {
+  margin: 10px;
+}
+#Products > figure {
+  flex:1;
+}
+
+figure {
+  max-width: 20%;;
+}
+
+#Products {
+  flex-wrap: wrap;
+  display:inline-flex;
+}
